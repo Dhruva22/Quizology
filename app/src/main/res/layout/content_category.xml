@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_category"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.quizology.activity.CategoryActivity"
+    tools:showIn="@layout/activity_category">
+
+    <com.example.quizology.custom.CustomButton
+        android:id="@+id/btnHangman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_main_button_shape"
+        android:text="Hangman"
+        android:textColor="@android:color/black"
+        app:custom_font="avenir_light"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
